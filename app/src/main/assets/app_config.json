@@ -1,0 +1,35 @@
+{
+  "panelUrl": "https://demo.pterodactyl.io",
+  "apiKey": "ptla_default_raw_file_admin_token_12345",
+  "accountName": "Account Bawaan",
+  "isDefault": true,
+  "source": "Bawaan Sistem",
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Node-01 (SG-Central)",
+      "fqdn": "sg1.node.pterodactyl.io",
+      "memoryMb": 16384,
+      "diskMb": 204800
+    },
+    {
+      "id": 2,
+      "name": "Node-02 (US-East)",
+      "fqdn": "us1.node.pterodactyl.io",
+      "memoryMb": 32768,
+      "diskMb": 409600
+    }
+  ],
+  "defaultServers": [
+    {
+      "identifier": "srv_raw_01",
+      "name": "Minecraft Raw Local Server",
+      "node": "Node-01 (SG-Central)",
+      "description": "Server bawaan dari file mentah assets/default_pterodactyl.json",
+      "memoryMb": 4096,
+      "diskMb": 20480,
+      "cpuPercentage": 200.0,
+      "primaryAllocation": "103.12.4.5:25565"
+    }
+  ]
+}

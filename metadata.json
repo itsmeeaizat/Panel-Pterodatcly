@@ -1,0 +1,6 @@
+{
+  "name": "Pterodactyl Panel",
+  "description": "Android application for managing Pterodactyl Panel VPS servers with clean light design, real-time CPU/RAM/SSD monitoring, power actions, and console logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
